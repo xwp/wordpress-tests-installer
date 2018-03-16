@@ -1,0 +1,30 @@
+{
+  "name": "xwp/wordpress-tests-installer",
+  "description": "Handles installing the WordPress PHPUnit test suite with composer",
+  "keywords": [
+    "wordpress"
+  ],
+  "version": "1.0.0",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Derek Herman",
+      "email": "derek.herman@xwp.co"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/Plugin.php"
+    ]
+  },
+  "require": {
+    "composer-plugin-api": "^1"
+  },
+  "require-dev": {
+    "composer/composer": "^1"
+  },
+  "extra": {
+    "class": "XWP\\Composer\\Plugin"
+  }
+}
