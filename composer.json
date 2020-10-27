@@ -4,7 +4,7 @@
   "keywords": [
     "wordpress"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "composer-plugin",
   "license": "MIT",
   "authors": [
@@ -19,7 +19,10 @@
     ]
   },
   "require": {
-    "composer-plugin-api": "^1"
+    "composer-plugin-api": "^1 || ^2"
+  },
+  "require-dev": {
+    "composer/composer": "^1 || ^2"
   },
   "extra": {
     "class": "XWP\\Composer\\Plugin"
