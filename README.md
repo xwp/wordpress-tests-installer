@@ -1,8 +1,8 @@
 # WordPress Tests Installer
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Packagist](https://img.shields.io/packagist/dt/xwp/wordpress-tests-installer.svg)](https://packagist.org/packages/xwp/wordpress-tests-installer)
-![GitHub tag](https://img.shields.io/github/tag/xwp/wordpress-core-installer.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Packagist](https://img.shields.io/packagist/dt/xwp/wordpress-tests-installer)](https://packagist.org/packages/xwp/wordpress-tests-installer)
+[![GitHub tag](https://img.shields.io/github/v/tag/xwp/wordpress-tests-installer)](https://github.com/xwp/wordpress-tests-installer/releases)
 
 A custom Composer plugin to install the WordPress Core PHPUnit test suite inside the `vendor` directory.
 
